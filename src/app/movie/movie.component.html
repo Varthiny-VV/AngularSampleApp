@@ -1,0 +1,25 @@
+
+<div>
+    <h2>MOVIE MANIA</h2>
+</div>
+
+<div>
+    <h4>Movie ID</h4>
+    <input type="number" [value]="movieid">
+</div>
+
+<div>
+    <h4>Movie Name</h4>
+    <input type="text" [value]="moviename">
+</div>
+
+<div>
+    <h4>Movie Duration</h4>
+    <input type="number" [value]="movieduration">
+</div>
+
+<div>
+    <h4>Likes For The Movie: {{numberOfLikes}}</h4>
+    <span [class]="classname"  (click)="likes()"></span>
+</div>
+

@@ -1,0 +1,16 @@
+span{
+    color:red;
+    font-size: 3em;
+    font-weight: 300;
+}
+h2{
+    font-family: fantasy;
+    color: purple;
+}
+
+h4{
+    font-style: italic;
+    font-family: cursive;
+    color: rgb(56, 56, 176);
+}
+

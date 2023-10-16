@@ -1,0 +1,33 @@
+<!-- <p>second works!</p>
+<!-- INTERPOLATION -->
+<div>
+    <h2>INTERPOLATION</h2>
+    Customer Name :{{customername}}
+</div>
+
+<!-- PROPERTY BINDING -->
+<div>
+    <h2>PROPERTY BINDING</h2>
+    <input type="text" [value]="customername">
+</div>
+
+<div>
+    <h2>EVENT BINDING</h2>
+    <button (click)="buttonclicked('Hello')">CLICK ME</button>
+</div>
+
+<div>
+    <input type="text" #customeremail>
+    <button (click)="showEmail(customeremail.value)">Show</button>
+</div>
+
+<div>
+    <!-- property Binding -->
+    <span [class]="classname"  (click)="toggle()"></span>
+</div>
+
+<div>
+    <!-- TWOWAY BINDING -->
+    <h2>TWO WAY BINDING</h2>
+    <input type="text" [(ngModel)]="customername">
+</div> 
